@@ -1,0 +1,39 @@
+{
+    "parser": "babel-eslint",
+    "extends": "airbnb",
+    "globals": {
+        "document": true,
+        "localStorage": true,
+        "describe": true,
+        "it": true,
+        "test": true,
+        "expect": true,
+        "beforeEach": true,
+        "jest": true,
+        "window": true,
+        "beforeAll": true,
+        "afterAll": true,
+        "browser": true,
+        "$": true,
+        "Notification": true
+    },
+    "rules": {
+        "indent": ["error", 4],
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4],
+        "react/no-array-index-key": "none",
+        "import/no-extraneous-dependencies": "none",
+        "jsx-a11y/no-static-element-interactions": "none",
+        "jsx-a11y/click-events-have-key-events": "none",
+        "jsx-a11y/anchor-is-valid": "none",
+        "jsx-a11y/label-has-for": "none",
+        "import/no-unresolved": "none",
+        "import/extensions": "never",
+        "import/prefer-default-export": "none",
+        "linebreak-style": "off",
+        "class-methods-use-this": "off",
+        "no-useless-escape": "off",
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "no-mixed-operators": "off"
+    }
+}
