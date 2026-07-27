@@ -95,7 +95,7 @@
         "wdio-webpack-dev-server-service": "^1.1.0",
         "webdriverio": "^4.9.11",
         "webpack": "^3.8.1",
-        "webpack-dev-server": "2.9.5"
+        "webpack-dev-server": "5.2.6"
     },
     "browserslist": [
         "safari > 7",
